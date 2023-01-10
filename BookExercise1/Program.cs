@@ -1,3 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using System.Runtime.CompilerServices;
+using BookExercise1;
+
+Book myFirstBook = new Book();
+Book mySecondBook = new Book("Peppi Pitkätossu", 77);
+Book myBook = new Book("Muumit", "Tove Jansson", "01234", 23.50);
 

@@ -15,7 +15,7 @@ namespace BookExercise1
         string id;
         double price;
 
-        public Book()
+        public Book(string title, double price)
         {
             this.title = string.Empty;
             this.pageCount = 2;
@@ -77,8 +77,18 @@ namespace BookExercise1
             else
             {
                 this.id = id;
+            }         
+        }
+        public void CompareBooks(Book other)
+        {
+            Console.WriteLine(this.title);
+            Console.WriteLine(other.title);
+            if (this.price > other.price)
+            {
+                Console.WriteLine(this.price);
             }
-            
-        }   
+            else
+                Console.WriteLine(other.price);
+        }
     }
 }

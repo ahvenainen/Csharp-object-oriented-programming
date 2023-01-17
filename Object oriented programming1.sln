@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookExercise1", "BookExercise1\BookExercise1.csproj", "{F818BC02-2695-4E83-A287-3C68A388CB94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarExercise", "CarExercise\CarExercise.csproj", "{0193FE42-EF20-49C4-A26F-7B22A1D28680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarExercise", "CarExercise\CarExercise.csproj", "{0193FE42-EF20-49C4-A26F-7B22A1D28680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyExercise", "CompanyExercise\CompanyExercise.csproj", "{DB32781B-CDD2-44F0-9D24-DA8D01140643}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0193FE42-EF20-49C4-A26F-7B22A1D28680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0193FE42-EF20-49C4-A26F-7B22A1D28680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0193FE42-EF20-49C4-A26F-7B22A1D28680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB32781B-CDD2-44F0-9D24-DA8D01140643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB32781B-CDD2-44F0-9D24-DA8D01140643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB32781B-CDD2-44F0-9D24-DA8D01140643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB32781B-CDD2-44F0-9D24-DA8D01140643}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

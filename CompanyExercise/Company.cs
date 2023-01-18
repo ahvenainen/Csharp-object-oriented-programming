@@ -16,11 +16,11 @@ namespace CompanyExercise
         int expense;
         public Company()
         {   
-            this.title = string.Empty;
-            this.address = string.Empty;
-            this.phone = string.Empty;
-            this.outcome = 0;
-            this.expense = 0;
+            title = string.Empty;
+            address = string.Empty;
+            phone = string.Empty;
+            outcome = 0;
+            expense = 0;
         }
 
         public Company(string title, string address, string phone, int outcome, int expense)
@@ -34,16 +34,16 @@ namespace CompanyExercise
 
         public Company(Company other)
         {
-            this.title = other.title;
-            this.address = other.address;
-            this.phone = other.phone;
-            this.outcome = other.outcome;
-            this.expense = other.expense;
+            title = other.title;
+            address = other.address;
+            phone = other.phone;
+            outcome = other.outcome;
+            expense = other.expense;
         }
 
         public void Voitot()
         {
-            int voitto = (this.outcome - this.expense) / this.expense * 100;
+            int voitto = (outcome - expense) / expense * 100;
 
             if (voitto < 100)
             {

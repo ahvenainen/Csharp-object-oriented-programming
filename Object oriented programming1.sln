@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarExercise", "CarExercise\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyExercise", "CompanyExercise\CompanyExercise.csproj", "{DB32781B-CDD2-44F0-9D24-DA8D01140643}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeExercise", "EmployeeExercise\EmployeeExercise.csproj", "{78131CC6-B483-4BE6-9063-61C22CC1F471}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeExercise", "EmployeeExercise\EmployeeExercise.csproj", "{78131CC6-B483-4BE6-9063-61C22CC1F471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExercise2", "BookExercise2\BookExercise2.csproj", "{C602E24A-5E9A-4436-8979-3E8F5AD83A77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{78131CC6-B483-4BE6-9063-61C22CC1F471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78131CC6-B483-4BE6-9063-61C22CC1F471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78131CC6-B483-4BE6-9063-61C22CC1F471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C602E24A-5E9A-4436-8979-3E8F5AD83A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C602E24A-5E9A-4436-8979-3E8F5AD83A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C602E24A-5E9A-4436-8979-3E8F5AD83A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C602E24A-5E9A-4436-8979-3E8F5AD83A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

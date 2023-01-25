@@ -32,9 +32,7 @@ namespace EmployeeExercise
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(this.name + "n (" + this.salary + ") ja " + employee.name + "n (" + employee.salary + ") palkat ovat yhtä suuret");
-                Console.ResetColor();
             }
         }
         

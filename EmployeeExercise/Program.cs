@@ -3,7 +3,7 @@
 Console.WriteLine("Työntekijöiden tiedot\n");
 
 Employee[] employees = new Employee[3];
-employees[0] = new Employee("Jorma", "111", "Kirurgi", 22000);
+employees[0] = new Employee("Jorma", "111", "Kirurgi", 25000);
 employees[1] = new Employee("Sepi", "222", "Lentäjä", 220007);
 employees[2] = new Employee("Jesse", "333", "Astronautti", 23000);
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookExercise2
+namespace Literature
 {
     internal class Book
     {
@@ -84,8 +84,10 @@ namespace BookExercise2
         {
             theme = uusi;
         }
-        
 
-        
+        public override string? ToString()
+        {
+            return $"{this.name}, {this.author}, {this.isbn}, {this.publisher}, {this.price}";
+        }
     }
 }

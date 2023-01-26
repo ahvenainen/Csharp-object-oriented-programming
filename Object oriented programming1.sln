@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyExercise", "CompanyE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeExercise", "EmployeeExercise\EmployeeExercise.csproj", "{78131CC6-B483-4BE6-9063-61C22CC1F471}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExercise2", "BookExercise2\BookExercise2.csproj", "{C602E24A-5E9A-4436-8979-3E8F5AD83A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookExercise2", "BookExercise2\BookExercise2.csproj", "{C602E24A-5E9A-4436-8979-3E8F5AD83A77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

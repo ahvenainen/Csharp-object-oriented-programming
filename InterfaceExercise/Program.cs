@@ -13,7 +13,6 @@ Console.WriteLine(dna.ToString());
 dna.PrintProducts();
 dna.PrintCustomers();
 
-
 //Ylimääräistä koodia. Ei tarvitse huomioida.
 
 //List<Product> products = new List<Product>()

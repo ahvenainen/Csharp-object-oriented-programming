@@ -10,33 +10,33 @@ Console.WriteLine(car1.ToString());
 Console.WriteLine(car.Equals(car1));
 Console.WriteLine();
 
-Truck truck = new("SISU", "CK16M", 2023, 200000, "V100", "Combination", 2, 5, 9.5);
-Truck truck1 = new("SISU", "CK23M", 2022, 160000, "V2500", "Combination", 3, 5, 8.5);
+Truck truck = new("SISU", "CK16M", 2023, 200000, "V100", "Yhdistelmä", 2, 5, 9.5);
+Truck truck1 = new("SISU", "CK23M", 2022, 160000, "V2500", "Yhdistelmä", 3, 5, 8.5);
 
 truck.PrintInformation();
-Console.WriteLine("Total consumption: " + truck.CalculateConsumption() + "l/100km");
+Console.WriteLine("Kokonaiskulutus: " + truck.CalculateConsumption() + "l/100km");
 Console.WriteLine();
 truck1.PrintInformation();
-Console.WriteLine("Total consumption: " + truck1.CalculateConsumption() + "l/100km");
+Console.WriteLine("Kokonaiskulutus: " + truck1.CalculateConsumption() + "l/100km");
 
 //Truck t = car as Truck;
 
 if (truck1 is Car)
 {
-    Console.WriteLine("\nType conversion Car -> Truck: succeeded");
+    Console.WriteLine("\nTyyppimuunnos Auto -> Rekka: onnistui");
 }
 else
 {
-    Console.WriteLine("Type conversion Car -> Truck: failed");
+    Console.WriteLine("Tyyppimunnos Auto -> Rekka: epäonnistui");
 }
 
 if (car1 is Truck)
 {
-    Console.WriteLine("Type conversion Truck -> Car: succeeded");
+    Console.WriteLine("Tyyppimuunnos Rekka -> Auto: onnistui");
 }
 else
 {
-    Console.WriteLine("Type conversion Truck -> Car: failed");
+    Console.WriteLine("Tyyppimuunnos Rekka -> Auto: epäonnistui");
 }
 
 //Employee e = new Employee();

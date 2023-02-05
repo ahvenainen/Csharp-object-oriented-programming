@@ -22,8 +22,8 @@ namespace VehicleExercise
         }
         public virtual void PrintInformation()
         {
-            Console.WriteLine("\u001b[4mVehicle information\u001b[0m");
-            Console.WriteLine("Brand: {0}\nModel: {1}\nModel Year: {2}\nPrice: {3}", brand, model, modelYear, price);
+            Console.WriteLine("\u001b[4mAjoneuvon tiedot\u001b[0m");
+            Console.WriteLine("Brandi: {0}\nMalli: {1}\nVuosimalli: {2}\nHinta: {3}", brand, model, modelYear, price);
         }
     }
 }

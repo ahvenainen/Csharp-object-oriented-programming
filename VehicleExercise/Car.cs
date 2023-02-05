@@ -20,7 +20,7 @@ namespace VehicleExercise
 
         public override bool Equals(object? obj)
         {
-            Console.Write("\nCars are equal: ");
+            Console.Write("\nAutot ovat samat: ");
             return base.Equals(obj);
         }
 
@@ -32,14 +32,14 @@ namespace VehicleExercise
         public override void PrintInformation()
         {
             base.PrintInformation();
-            Console.WriteLine("Engine: {0}\nType: {1}\nDoors: {2}", engine, type, lkm);
+            Console.WriteLine("Moottori: {0}\nTyyppi: {1}\nOvien lkm: {2}", engine, type, lkm);
         }
 
         public override string? ToString()
         {
-            Console.WriteLine("\u001b[4m\nVehicle information\u001b[0m");
-            return "Brand: " + brand + "\nModel: " + model + "\nModel Year: " + modelYear + "\nPrice: " + price + "\nEngine: " + engine
-                + "\nType: " + type + "\nDoors: " + lkm;
+            Console.WriteLine("\u001b[4m\nAjoneuvon tiedot\u001b[0m");
+            return "Brandi: " + brand + "\nMalli: " + model + "\nVuosimalli: " + modelYear + "\nHinta: " + price + "\nMoottori: " + engine
+                + "\nTyyppi: " + type + "\nOvien lkm: " + lkm;
         }
     }
 }

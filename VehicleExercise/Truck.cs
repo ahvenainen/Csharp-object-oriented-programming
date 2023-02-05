@@ -25,7 +25,7 @@ namespace VehicleExercise
         public override void PrintInformation()
         {
             base.PrintInformation();
-            Console.WriteLine("Load: " + load + "\nConsumption: " + consumption);
+            Console.WriteLine("Kuorma: " + load + "\nKulutus: " + consumption);
         }
     }
 }

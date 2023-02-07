@@ -14,7 +14,7 @@ foreach (Book c in books)
 }
 
 books.Sort();
-Console.WriteLine("----------------------------------------------------------------");
+Console.WriteLine("-----------------------------------------------------------------");
 
 foreach (Book b in books)
 {

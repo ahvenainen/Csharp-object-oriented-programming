@@ -1,9 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using System.Runtime.CompilerServices;
 using BookExercise1;
+Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-Book myFirstBook = new Book("Peppi", "Tove", "01235", 77.20);
-Book mySecondBook = new Book("Peppi Pitkätossu", 77);
-Book myBook = new Book("Muumit", "Tove Jansson", "01234", 77.00);
+Book myFirstBook = new Book("Muumilaakson tarinat", "Tove", "01235", 19.90);
+Book mySecondBook = new Book("Peppi Pitkätossu", 15.90);
+Book myBook = new Book("Muumit", "Tove Jansson", "01234", 16.90);
 myBook.CompareBooks(myFirstBook);
-

@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookExercise2", "BookExerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleExercise", "VehicleExercise\VehicleExercise.csproj", "{F37A703F-AF7F-4A48-8E37-FE5E95DE8FD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExercise", "InterfaceExercise\InterfaceExercise.csproj", "{C9A6675B-093F-4BEC-9AF6-C20BF6BF2533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExercise", "InterfaceExercise\InterfaceExercise.csproj", "{C9A6675B-093F-4BEC-9AF6-C20BF6BF2533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortExercise", "SortExercise\SortExercise.csproj", "{AB2B2109-B20C-41B6-BDE5-65498E503823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C9A6675B-093F-4BEC-9AF6-C20BF6BF2533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A6675B-093F-4BEC-9AF6-C20BF6BF2533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A6675B-093F-4BEC-9AF6-C20BF6BF2533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2B2109-B20C-41B6-BDE5-65498E503823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2B2109-B20C-41B6-BDE5-65498E503823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2B2109-B20C-41B6-BDE5-65498E503823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2B2109-B20C-41B6-BDE5-65498E503823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

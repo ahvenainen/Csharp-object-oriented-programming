@@ -9,11 +9,11 @@ namespace BookExercise1
 {
     internal class Book
     {
-        string title;
+        public string title;
         int pageCount;
         string author;
         string id;
-        double price;
+        public double price;
 
         public Book(string title, double price)
         {
@@ -49,21 +49,17 @@ namespace BookExercise1
 
         public void WriteTitle(int parameter1, string parameter2)
         {
-            Console.WriteLine("Page count is {0}, " +
-            "second parameter {1}",
-            parameter1, parameter2);
+            Console.WriteLine("Page count: {0} \nBook name: {1}", parameter1, parameter2);
         }
 
         public void WriteAllDetails(int parameter1, string parameter2, string parameter3, string parameter4, double parameter5)
         {
-            Console.WriteLine("Page count is {0}, " +
-            "second parameter {1}" + "third parameter {2}" + "fourth parameter {3}" + "fifth parameter {4}",
+            Console.WriteLine("Page count: {0} " + "\nBook name: {1}" + "Third param {2}" + "fourth parameter {3}" + "fifth parameter {4}",
             parameter1, parameter2, parameter3, parameter4, parameter5);
         }
         public void PrintData()
         {
-            Console.WriteLine("Title is {0}, " +
-            "author is {1}, " + "id is {2}, " + "price {3}",
+            Console.WriteLine("Title: {0}" + "\nAuthor: {1}" + "\nID: {2}" + "\nPrice: {3}\n",
             this.title, this.author, this.id, this.price);
         }
 
@@ -81,14 +77,14 @@ namespace BookExercise1
         }
         public void CompareBooks(Book other)
         {
-            Console.WriteLine(this.title);
-            Console.WriteLine(other.title);
+            Console.WriteLine("Book name: " + this.title + " (" + this.price + "€)");
+            Console.WriteLine("Book name: " + other.title + " (" + other.price + "€)");
             if (this.price > other.price)
             {
-                Console.WriteLine(this.price);
+                Console.WriteLine(this.title + " is more expensive than " + other.title + "\n");
             }
             else
-                Console.WriteLine(other.price);
+                Console.WriteLine(other.title + " is more expensive than " + this.title + "\n");
         }
     }
 }

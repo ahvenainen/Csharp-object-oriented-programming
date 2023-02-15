@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace InsuranceExercise
 {
-
     public class InsuranceManager
     {
-
         private List<Insurance> insurances = new List<Insurance>();
-
+        
         internal void AddInsurance(string animal, string name, bool isNeutered)
         {
             insurances.Add(new Insurance(animal, name, isNeutered, GetFee(animal, isNeutered)));
         }
-
+        
         internal double GetFee(string species, bool isNeutererd)
         {
             //• Leikattu koira maksaa 50 €
@@ -43,9 +41,11 @@ namespace InsuranceExercise
             else
                 return 0;
         }
-
+        
         internal void PrintInsurances()
         {
+            Console.WriteLine("vakuutuksia yhteensä: "+ insurances.Count + "\n");
+            Console.WriteLine("vakuutukset");
             foreach(Insurance i in insurances) 
             {
                 Console.WriteLine(i);

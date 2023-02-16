@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortExercise", "SortExercis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapesExercise", "ShapesExercise\ShapesExercise.csproj", "{BE87403A-008D-487E-B687-A6A1156FB2BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceExercise", "InsuranceExercise\InsuranceExercise.csproj", "{CE2683B5-1909-4A73-A635-569D6AC4A81D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceExercise", "InsuranceExercise\InsuranceExercise.csproj", "{CE2683B5-1909-4A73-A635-569D6AC4A81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesExercise", "FilesExercise\FilesExercise.csproj", "{0C6915CB-BC6A-4CAD-87D4-98312F1732E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{CE2683B5-1909-4A73-A635-569D6AC4A81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE2683B5-1909-4A73-A635-569D6AC4A81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE2683B5-1909-4A73-A635-569D6AC4A81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6915CB-BC6A-4CAD-87D4-98312F1732E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6915CB-BC6A-4CAD-87D4-98312F1732E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6915CB-BC6A-4CAD-87D4-98312F1732E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6915CB-BC6A-4CAD-87D4-98312F1732E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
